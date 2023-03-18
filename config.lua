@@ -56,7 +56,7 @@ Config.Notification = {
     },
     StartMission = {
         title = 'Boss',
-        description = 'Get get the truck for me',
+        description = 'Go get the truck for me',
         type = 'inform',
         position = 'top-right'
     },
