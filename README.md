@@ -14,8 +14,6 @@ https://youtu.be/Sa7iQysDUnc
 
 <p>It's made to be an extremely configurable script that can work with any roleplay server</p>
 
-<p> It's made to be a 1 time completed per server restart so if it is completed that's it until server restart</p>
-
 This resource includes:
 
 - NPC to start a job
@@ -29,6 +27,7 @@ Configuration:
 - Change any models
 - Change the amount of NPC's
 - Change all notifications
+- Change the cooldown or have it as a one time completed mission
 
 ## What do I need?
 
