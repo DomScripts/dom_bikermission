@@ -47,6 +47,12 @@ Config.Mission = {
     RewardAmount = 25000,
 }
 
+Config.Cooldown = {
+    OneTime = false, -- If true once completed you cant do again until server restart
+    CooldownMin = 3600000, -- 1 hour
+    CooldownMax = 7200000, -- 2 hours
+}
+
 Config.Notification = {
     CantStartMission = {
         title = 'Boss',

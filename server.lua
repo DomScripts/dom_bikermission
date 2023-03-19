@@ -9,7 +9,14 @@ RegisterNetEvent('dom_bikermission:inMissionFalse', function()
 end)
 
 RegisterNetEvent('dom_bikermission:completedJobTrue', function()
-    GlobalState.completedJob = true
+    if Config.Cooldown.OneTime then 
+        GlobalState.completedJob = true
+    else 
+        GlobalState.completedJob = true
+        local randomwait = math.random(Config.Cooldown.CooldownMin, Config.Cooldown.CooldownMax)
+        Wait(randomwait)
+        TriggerEvent('dom_bikermission:completedJobFalse')
+    end 
 end)
 
 RegisterNetEvent('dom_bikermission:completedJobFalse', function()
