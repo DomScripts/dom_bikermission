@@ -1,3 +1,7 @@
+## Known Issues
+
+<p> Some people experience crashes when arriving near the car spawn. No idea what i causing it since it randomly crashes upon either entering the zone or spawning in the NPC's. No updated as I'm working on bigger projects but if someone finds a fix I'll update it</p>
+
 ## Preview
 
 https://youtu.be/Sa7iQysDUnc 
