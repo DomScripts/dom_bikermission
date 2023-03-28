@@ -3,8 +3,8 @@ local Input = lib.inputDialog
 local Zone = lib.zones
 
 local function requestModels(model)
-    RequestModel(model)
-    while not HasModelLoaded(model) do 
+    RequestModel(GetHashKey(model))
+    while not HasModelLoaded(GetHashKey(model)) do 
         Wait(500)
     end 
 end 
