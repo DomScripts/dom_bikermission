@@ -23,7 +23,6 @@ local function setupMissionOnEnter()
         GiveWeaponToPed(missionNPCTable[i], GetHashKey('weapon_pistol'), 250, false, true)
         SetCurrentPedWeapon(missionNPCTable[i], GetHashKey('weapon_pistol'), true)
         SetPedCombatAbility(missionNPCTable[i], 100)
-        SetPedCombatAttributes(missionNPCTable[i], 1424, true)
         SetPedRelationshipGroupHash(missionNPCTable[i], 'AGGRESSIVE_INVESTIGATE')
         Wait(500)
     end 
