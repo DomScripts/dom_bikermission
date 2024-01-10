@@ -1,3 +1,7 @@
+## Archive
+
+Due to other on going projects and school this repository has been archieved. Please join the discord to keep up with updates.
+
 ## Preview
 
 https://youtu.be/Sa7iQysDUnc 
@@ -41,4 +45,4 @@ Configuration:
 <p>Start dom_bikermission after dependencies</p>
 
 ## Need Support?
-<a href='https://discord.gg/GH4fdmMG5b'>Discord</a>
+<a href='https://discord.gg/8sVugr5VSv'>Discord</a>
